@@ -6,7 +6,7 @@ using namespace std;
 double dd(int a,int b, int c, int d){ if(d==b){return (double)0;} double g;  g= (double)(((d-b)*1.0)/(c-a)); return g; }
 int32_t main()
 {   ios_base::sync_with_stdio(false); cin.tie(nullptr);
-    int a[2000000],b[2000000],t,i,j,l,k,m,n,xx[2000000][3],ll,aa[4000002],bb[4000002],pp,ud[2000],du[2000],fdu,fud,ndu,nud;
+    int a[2000],b[2000],t,i,j,l,k,m,n,xx[2000][3],ll,aa[4002],bb[4002],pp,ud[2000],du[2000],fdu,fud,ndu,nud;
     double o,p,h,hh;
     map<int,int>x,y;
     cin>>n;
